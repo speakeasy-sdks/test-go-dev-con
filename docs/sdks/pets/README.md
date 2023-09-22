@@ -18,11 +18,11 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/test-go-dev-con"
+	testgodevcon "github.com/speakeasy-sdks/test-go-dev-con"
 )
 
 func main() {
-    s := testgendevcon.New()
+    s := testgodevcon.New()
 
     ctx := context.Background()
     res, err := s.Pets.CreatePets(ctx)
@@ -60,16 +60,16 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/test-go-dev-con"
+	testgodevcon "github.com/speakeasy-sdks/test-go-dev-con"
 	"github.com/speakeasy-sdks/test-go-dev-con/pkg/models/operations"
 )
 
 func main() {
-    s := testgendevcon.New()
+    s := testgodevcon.New()
 
     ctx := context.Background()
     res, err := s.Pets.ListPets(ctx, operations.ListPetsRequest{
-        Limit: testgendevcon.Int(548814),
+        Limit: testgodevcon.Int(548814),
     })
     if err != nil {
         log.Fatal(err)
@@ -106,12 +106,12 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/test-go-dev-con"
+	testgodevcon "github.com/speakeasy-sdks/test-go-dev-con"
 	"github.com/speakeasy-sdks/test-go-dev-con/pkg/models/operations"
 )
 
 func main() {
-    s := testgendevcon.New()
+    s := testgodevcon.New()
 
     ctx := context.Background()
     res, err := s.Pets.ShowPetByID(ctx, operations.ShowPetByIDRequest{
