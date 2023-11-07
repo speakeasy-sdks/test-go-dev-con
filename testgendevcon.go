@@ -60,7 +60,7 @@ func (c *sdkConfiguration) GetServerDetails() (string, map[string]string) {
 }
 
 type TestGenDevCon struct {
-	Pets *pets
+	Pets *Pets
 
 	sdkConfiguration sdkConfiguration
 }
@@ -115,9 +115,9 @@ func New(opts ...SDKOption) *TestGenDevCon {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "0.5.0",
-			GenVersion:        "2.169.0",
-			UserAgent:         "speakeasy-sdk/go 0.5.0 2.169.0 1.0.0 github.com/speakeasy-sdks/test-go-dev-con",
+			SDKVersion:        "0.6.0",
+			GenVersion:        "2.181.1",
+			UserAgent:         "speakeasy-sdk/go 0.6.0 2.181.1 1.0.0 github.com/speakeasy-sdks/test-go-dev-con",
 		},
 	}
 	for _, opt := range opts {
