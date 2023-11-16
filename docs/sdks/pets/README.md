@@ -17,9 +17,10 @@ Create a pet
 package main
 
 import(
+	testgodevcon "github.com/speakeasy-sdks/test-go-dev-con"
 	"context"
 	"log"
-	testgodevcon "github.com/speakeasy-sdks/test-go-dev-con"
+	"net/http"
 )
 
 func main() {
@@ -61,10 +62,10 @@ List all pets
 package main
 
 import(
-	"context"
-	"log"
 	testgodevcon "github.com/speakeasy-sdks/test-go-dev-con"
+	"context"
 	"github.com/speakeasy-sdks/test-go-dev-con/pkg/models/operations"
+	"log"
 )
 
 func main() {
@@ -107,10 +108,10 @@ Info for a specific pet
 package main
 
 import(
-	"context"
-	"log"
 	testgodevcon "github.com/speakeasy-sdks/test-go-dev-con"
+	"context"
 	"github.com/speakeasy-sdks/test-go-dev-con/pkg/models/operations"
+	"log"
 )
 
 func main() {
