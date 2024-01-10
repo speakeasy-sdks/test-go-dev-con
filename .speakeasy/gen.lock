@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 06e3d8ba-b2b3-41d7-b357-e553725dd8e9
 management:
-  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.225.2
-  releaseVersion: 0.7.1
-  configChecksum: 9b9adbd9fda7f0a354267028a9235313
+  generationVersion: 2.230.3
+  releaseVersion: 0.7.2
+  configChecksum: d706002e1d117f29aba0eb76e0f4eed4
   repoURL: https://github.com/speakeasy-sdks/test-go-dev-con.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/test-go-dev-con
