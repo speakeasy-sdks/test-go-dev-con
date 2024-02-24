@@ -4,16 +4,16 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.263.3
-  releaseVersion: 0.9.1
-  configChecksum: 02b8d8e1883538b9ad13078bd05c8a01
+  generationVersion: 2.272.4
+  releaseVersion: 0.9.2
+  configChecksum: c44f86f925c899709f9e06cd43524e4d
   repoURL: https://github.com/speakeasy-sdks/test-go-dev-con.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/test-go-dev-con
   published: true
 features:
   go:
-    core: 3.4.1
+    core: 3.4.3
     globalServerURLs: 2.82.1
 generatedFiles:
   - pets.go
